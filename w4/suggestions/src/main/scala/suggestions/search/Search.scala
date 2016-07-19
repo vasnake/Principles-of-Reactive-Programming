@@ -70,15 +70,22 @@ object Search {
     var all: String = _
   }
 
+  /**
+    * retrofit need to be updated to 1.9 for https support,
+    * old API url is not working anymore,
+    *
+    * new url:
+    * https://en.wikipedia.org/w/api.php?action=opensearch&limit=15&format=json&search=scala
+    */
   trait WikipediaService {
-    @GET("/w/api.php??action=opensearch&format=json&limit=15")
+    @GET("/w/api.php?action=opensearch&format=json&limit=15")
     def suggestions(@Query("search") term: String, callback: Callback[Array[AnyRef]]): Unit
 
-    @GET("/w/api.php??action=parse&format=json&prop=text&section=0")
+    @GET("/w/api.php?action=parse&format=json&prop=text&section=0")
     def page(@Query("page") term: String, callback: Callback[Page]): Unit
   }
 
-  val restAdapter = new RestAdapter.Builder().setServer("http://en.wikipedia.org").build()
+  val restAdapter = new RestAdapter.Builder().setEndpoint("https://en.wikipedia.org").build()
 
   val service = restAdapter.create(classOf[WikipediaService])
 
@@ -102,7 +109,7 @@ object Search {
       service.suggestions(term, cb)
       val result = await { f }
       val arraylist = result(1).asInstanceOf[java.util.List[String]]
-      
+
       arraylist.asScala.toList
     }
   }
