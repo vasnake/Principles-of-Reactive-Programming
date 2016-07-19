@@ -6,6 +6,7 @@ assignments and other code from Coursera class (now removed)
 ### Assignments
  - Week 4: Wikipedia Suggestions
  - Week 3: NodeScala
+ - Week 2: Calculator
 
 ### Sources
  - https://github.com/headinthebox/CourseraCodeSamplesReactiveProgramming
