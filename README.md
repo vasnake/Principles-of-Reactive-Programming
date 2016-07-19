@@ -4,9 +4,10 @@ assignments and other code from Coursera class (now removed)
 * https://www.coursera.org/course/reactive
 
 ### Assignments
- - Week 4: Wikipedia Suggestions
- - Week 3: NodeScala
+ - Week 1: QuickCheck/ScalaCheck
  - Week 2: Calculator
+ - Week 3: NodeScala
+ - Week 4: Wikipedia Suggestions
 
 ### Sources
  - https://github.com/headinthebox/CourseraCodeSamplesReactiveProgramming
