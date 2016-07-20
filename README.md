@@ -8,6 +8,7 @@ assignments and other code from Coursera class (now removed)
  - Week 2: Calculator
  - Week 3: NodeScala
  - Week 4: Wikipedia Suggestions
+ - Week 5: Actor Binary Tree
 
 ### Sources
  - https://github.com/headinthebox/CourseraCodeSamplesReactiveProgramming
