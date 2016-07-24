@@ -9,6 +9,7 @@ assignments and other code from Coursera class (now removed)
  - Week 3: NodeScala
  - Week 4: Wikipedia Suggestions
  - Week 5: Actor Binary Tree
+ - Week 6: Replicated KV Store
 
 ### Sources
  - https://github.com/headinthebox/CourseraCodeSamplesReactiveProgramming
