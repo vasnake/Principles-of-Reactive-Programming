@@ -18,6 +18,8 @@ assignments and other code from Coursera class (now removed)
 ### Video lectures:
 https://www.youtube.com/playlist?list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN
 
+worksheets: code snippets from lectures
+
 Recap: Getting Started with Tools
 * Tools Setup for Linux (12:24)
 * Tools Setup for Mac OS X (12:17)
