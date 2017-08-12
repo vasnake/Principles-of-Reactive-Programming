@@ -139,7 +139,7 @@ def pairs[T, U](t: Generator[T], u: Generator[U]) = new Generator[(T,U)] {
 
     // choose from interval
     def choose(lo: Int, hi: Int): Generator[Int] =
-        for (x <- integers) yield lo + x % (hi - lo)
+        for (x <- integers) yield lo + math.abs(x) % (hi - lo)
 
     // choose one of list
     def oneOf[T](xs: T*): Generator[T] =
