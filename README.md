@@ -3,6 +3,12 @@ assignments and other code from Coursera class (now removed)
 * https://class.coursera.org/reactive-002
 * https://www.coursera.org/course/reactive
 
+2019: Updated course: [Programming Reactive Systems (Principles of Reactive Programming in Scala)](https://www.edx.org/course/programming-reactive-systems) <br/>
+with some materials moved to [Functional Programming in Scala Specialization](https://www.coursera.org/specializations/scala)
+
+### Video lectures:
+https://www.youtube.com/playlist?list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN
+
 ### Assignments
  - Week 1: QuickCheck/ScalaCheck
  - Week 2: Calculator
@@ -14,9 +20,6 @@ assignments and other code from Coursera class (now removed)
 ### Sources
  - https://github.com/headinthebox/CourseraCodeSamplesReactiveProgramming
  - https://github.com/typesafehub/activator-akka-cluster-sharding-scala
-
-### Video lectures:
-https://www.youtube.com/playlist?list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN
 
 worksheets: code snippets from lectures
 
